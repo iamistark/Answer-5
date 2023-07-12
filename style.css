@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 180vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black;
+}
+
+.container{
+    max-width: 800px;
+    height: 170vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description1{
+    margin-top: 3.2rem;
+    font-size: 1.2rem;
+}
+
+.table-form{
+    margin-top: 3.2rem;
+    font-size: 1.2rem;
+}
+
+tr,td,th{
+    padding: 5px 5px;
+}
+
+.description2{
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.forms{
+    margin-top: 1.2rem;
+}
+
+.input-items1{
+    margin-top: 0.5rem;
+}
+
+input{
+    padding: 5px 15px;
+    margin-left: 30px;
+}
+
+.heading{
+    margin-top: 2.2rem;
+    font-size: 20px;
+}
+
+.list-items{
+    margin-top: 1.2rem;
+    margin-left: 4.2rem;
+    font-size: 1.4rem;
+}
+
+.list-items2{
+    margin-left: 8rem;
+    font-size: 1.3rem;
+    list-style-type: circle;
+}
+
+.list-items3{
+    margin-left: 4.2rem;
+    font-size: 1.4rem;
+}
+
+#btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(161, 159, 159);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
